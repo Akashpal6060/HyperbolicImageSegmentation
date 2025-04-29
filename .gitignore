@@ -1,0 +1,113 @@
+# ========== Python-related ==========
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+*$py.class
+
+# ========== Jupyter Notebooks ==========
+.ipynb_checkpoints/
+
+# ========== Virtual environments ==========
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ========== IDE settings ==========
+.idea/
+.vscode/
+.spyderproject
+.spyproject
+.ropeproject
+
+# ========== Build and packaging ==========
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-wheel-metadata/
+
+# ========== Logs and runtime files ==========
+*.log
+*.tmp
+*.bak
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ========== Checkpoint files ==========
+celerybeat-schedule
+celerybeat.pid
+
+# ========== PyInstaller ==========
+*.spec
+
+# ========== Coverage and test reports ==========
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.dmypy.json
+dmypy.json
+
+# ========== Mypy and Pyre type checker ==========
+.mypy_cache/
+.pyre/
+
+# ========== Sphinx documentation ==========
+docs/_build/
+site/
+
+# ========== Dataset and Checkpoints (YOUR CUSTOM PATHS) ==========
+/datasets/IDDAW/
+/poincare-hesp/save/hierarchical_IDDAW_d256_hyperbolic_c1.0_os16_segformer_b0_bs64_lr0.001_fbnTrue_fbbFalse/
+
+# ========== Temporary files ==========
+*.tar
+*.zip
+*.gz
+*.rar
+*.7z
+*.npz
+*.npy
+
+# ========== Model Weights ==========
+*.pth
+*.pt
+*.ckpt
+
+# ========== MacOS system files ==========
+.DS_Store
+
+# ========== Windows system files ==========
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ========== Linux swap files ==========
+*.swp
+*.swo

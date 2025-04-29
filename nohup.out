@@ -1,0 +1,70 @@
+2025-04-27 17:35:53.357759: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-27 17:35:53.386736: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-04-27 17:35:53.386789: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-27 17:35:53.386823: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-27 17:35:53.392758: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-04-27 17:35:54.012676: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+usage: train.py [-h] --mode {segmenter} --dataset {IDDAW}
+                [--geometry {euclidean,hyperbolic}] [--dim DIM] [--c C]
+                [--flat] [--freeze_bb] [--freeze_bn] [--batch_size BATCH_SIZE]
+                [--num_epochs NUM_EPOCHS] [--slr SLR]
+                [--pretrained PRETRAINED] [--output_stride {8,16}] [--gpu GPU]
+                [--transform] [--train] [--test]
+train.py: error: unrecognized arguments:  
+2025-04-27 17:37:36.630492: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-27 17:37:36.659196: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-04-27 17:37:36.659254: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-27 17:37:36.659288: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-27 17:37:36.665132: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-04-27 17:37:37.254398: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+usage: train.py [-h] --mode {segmenter} --dataset {IDDAW}
+                [--geometry {euclidean,hyperbolic}] [--dim DIM] [--c C]
+                [--flat] [--freeze_bb] [--freeze_bn] [--batch_size BATCH_SIZE]
+                [--num_epochs NUM_EPOCHS] [--slr SLR]
+                [--pretrained PRETRAINED] [--output_stride {8,16}] [--gpu GPU]
+                [--transform] [--train] [--test]
+train.py: error: unrecognized arguments:  
+2025-04-27 17:38:03.534450: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-27 17:38:03.563715: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-04-27 17:38:03.563767: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-27 17:38:03.563802: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-27 17:38:03.569704: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-04-27 17:38:04.091346: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+usage: train.py [-h] --mode {segmenter} --dataset {IDDAW}
+                [--geometry {euclidean,hyperbolic}] [--dim DIM] [--c C]
+                [--flat] [--freeze_bb] [--freeze_bn] [--batch_size BATCH_SIZE]
+                [--num_epochs NUM_EPOCHS] [--slr SLR]
+                [--pretrained PRETRAINED] [--output_stride {8,16}] [--gpu GPU]
+                [--transform] [--train] [--test]
+train.py: error: unrecognized arguments:  
+2025-04-27 17:39:03.138872: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-27 17:39:03.169610: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-04-27 17:39:03.169663: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-27 17:39:03.169698: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-27 17:39:03.175856: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-04-27 17:39:03.739757: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+usage: train.py [-h] --mode {segmenter} --dataset {IDDAW}
+                [--geometry {euclidean,hyperbolic}] [--dim DIM] [--c C]
+                [--flat] [--freeze_bb] [--freeze_bn] [--batch_size BATCH_SIZE]
+                [--num_epochs NUM_EPOCHS] [--slr SLR]
+                [--pretrained PRETRAINED] [--output_stride {8,16}] [--gpu GPU]
+                [--transform] [--train] [--test]
+train.py: error: unrecognized arguments:  
+2025-04-27 22:48:23.246285: I tensorflow/core/util/port.cc:111] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-27 22:48:23.277461: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-04-27 22:48:23.277515: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-27 22:48:23.277559: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-27 22:48:23.284001: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-04-27 22:48:23.895154: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+usage: train.py [-h] --mode {segmenter} --dataset {IDDAW}
+                [--geometry {euclidean,hyperbolic}] [--dim DIM] [--c C]
+                [--flat] [--freeze_bb] [--freeze_bn] [--batch_size BATCH_SIZE]
+                [--num_epochs NUM_EPOCHS] [--slr SLR]
+                [--pretrained PRETRAINED] [--output_stride {8,16}] [--gpu GPU]
+                [--transform] [--train] [--test]
+train.py: error: unrecognized arguments:  
