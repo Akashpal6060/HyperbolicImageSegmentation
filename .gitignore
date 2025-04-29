@@ -85,6 +85,7 @@ site/
 # ========== Dataset and Checkpoints (YOUR CUSTOM PATHS) ==========
 /datasets/IDDAW/
 /poincare-hesp/save/hierarchical_IDDAW_d256_hyperbolic_c1.0_os16_segformer_b0_bs64_lr0.001_fbnTrue_fbbFalse/
+/visualization_out/
 
 # ========== Temporary files ==========
 *.tar
