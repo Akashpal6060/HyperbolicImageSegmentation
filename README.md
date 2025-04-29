@@ -2,25 +2,23 @@
 
 This repository contains a PyTorch-based implementation of **Hyperbolic Image Segmentation** adapted from [CVPR 2022 paper](https://arxiv.org/pdf/2203.05898.pdf), with the following custom modifications:
 
-- ✅ Replaced ResNet with **SegFormer-B0** backbone.
-- ✅ Adapted for the **IDDAW dataset** (Indian Driving Dataset for Adverse Weather).
-- ✅ Implemented training and visualization in **hyperbolic space** (Poincaré ball).
-- ✅ Uses hierarchical supervision for structured semantic segmentation.
+-  Replaced ResNet with **SegFormer-B0** backbone.
+-  Adapted for the **IDDAW dataset** (Indian Driving Dataset for Adverse Weather).
+-  Implemented training and visualization in **hyperbolic space** (Poincaré ball).
+-  Uses hierarchical supervision for structured semantic segmentation.
 
-![Architecture](assets/HIS.jpeg)
 
 ---
 
-## 🗂️ Repository Structure
+##  Repository Structure
 
-- **assets/** – diagrams and figures.
 - **datasets/** – class mappings, label hierarchies, and utility JSONs.
 - **hesp/** – model definitions, loss functions, embedding logic, and hierarchy utilities.
 - **samples/** – training scripts, helper functions, and experiment configs.
 
 ---
 
-## ⚙️ Installation
+## ⚙ Installation
 
 ```bash
 # Clone the repository
